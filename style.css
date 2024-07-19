@@ -56,13 +56,13 @@ body{
 
 .Grid1,.item1,.item2,.item3,.item4{
 	display: grid;
-	grid-template-columns: auto auto ;
-	grid-template-rows: auto auto ;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: auto auto auto ;
 	grid-gap: 20px;
 
 	
 }
-.item1,.item2,.item3,.item4{
+.item1,.item2,.item3,.item4,.item5,.item6{
 	background-color:skyblue;
 	padding: 10px;
 	text-align: center;
@@ -70,11 +70,15 @@ body{
 }
 
 .item1{
-	grid-row-start:1;
-	grid-row-end:3;
-	
+    grid-column-start: 1;
+	grid-column-end:3;
 }
 
 
+#Contact{
+	display:flex;
+	justify-content: space-between;
+	border:2px solid black;
+	text-size-adjust: 10px;
 
-
+}
