@@ -18,8 +18,7 @@ display: flex;
 }*/
 
 body{
-
-	background-image: url(://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTY4pn5whWT-_G2ak6ymjYtS96O4uiAbNs-A&s);
+	background-image: url(https://img.freepik.com/free-photo/blue-toned-set-paper-sheets-with-copy-space_23-2148320447.jpg?w=740&t=st=1721448717~exp=1721449317~hmac=e47b4beadc9432dde2f58937ab051a1454980c2adaa8e92d8396bb112172abbe);
 	background-size: 100%;
 }
 
@@ -62,16 +61,22 @@ body{
 
 	
 }
-.item1,.item2,.item3,.item4,.item5,.item6{
+.item1,.item2{
 	background-color:skyblue;
 	padding: 10px;
 	text-align: center;
 	border: 1px solid black;
+	margin: 20px;
 }
 
 .item1{
-    grid-column-start: 1;
-	grid-column-end:3;
+    display:flex;
+	justify-content: center;
+}
+
+.item2{
+	display:flex;
+	justify-content: center;
 }
 
 .Contact{
