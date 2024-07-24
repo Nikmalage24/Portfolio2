@@ -1,16 +1,17 @@
 #navbar {
 display: flex;
- justify-content: space-between ;
+ justify-content:space-between ;
+ padding-bottom: 21.8ax;
  border: 2px solid black;
- padding-left: 11px;
- padding-right: 11px;
- position: fixed;
- padding:0px;
- right:0px;
- left:0px;
- top: 0px;
- background-color: blueviolet;
+ background-color: #7862F8;
 }
+
+#PF{
+	display: flex;
+	justify-content: space-between;
+
+}
+
 #INTRO{
 	display:flex;
 	justify-content: space-between;
@@ -24,8 +25,7 @@ display: flex;
 }*/
 
 body{
-	background-image: url(https://image.slidesdocs.com/responsive-images/background/light-business-light-effect-blue-technology-modern-powerpoint-background_2433ecbf1c__960_540.jpg);
-	background-size: 100%;
+	background-color: #4E515C;
 }
 
 .grid-container {
@@ -33,12 +33,13 @@ body{
 	grid-template-columns: auto auto;
 	grid-template-rows:  auto auto;
 	grid-gap: 10px;
-	background-color: lavender;
+	
 }
 .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6{
  	padding: 10px;
  	text-align: center;
  	border: 2px solid black;
+	 color: ivory;
  } 
  
  
@@ -53,10 +54,10 @@ body{
 	grid-gap: 10px;
 }
 .skill{
-	background-color: lavender;
 	padding: 10px;
 	text-align: center;
 	border: 2px solid black;
+	color: ivory;
 }
 
 .Grid1,.item1,.item2,.item3,.item4{
@@ -64,11 +65,11 @@ body{
 	grid-template-columns: auto auto auto ;
 	grid-template-rows: auto auto auto ;
 	grid-gap: 20px;
+	color: ivory;
 
 	
 }
 .item1,.item2{
-	background-color:lavender;
 	padding: 10px;
 	text-align: center;
 	border: 1px solid black;
@@ -78,11 +79,13 @@ body{
 .item1{
     display:flex;
 	justify-content: center;
+	color: ivory;
 }
 
 .item2{
 	display:flex;
 	justify-content: center;
+	color: ivory;
 }
 
 .Contact{
